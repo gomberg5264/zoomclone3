@@ -1,0 +1,134 @@
+.navbar{margin-bottom:0;border:0;box-shadow:0 1px 0 0 rgba(0,0,0,0.1);background:rgba(255,255,255,.97) none}
+.navbar-header{height:64px;line-height:64px}
+.navbar-brand{padding:20px 15px 15px}
+#navbar ul{margin-right:0!important}
+.zoom-logo>img{border:0;height:25px;width:auto}
+.phone{line-height:64px;padding-right:30px}
+.sign-link{line-height:64px}
+#freesignup,#warriors{padding-top:64px;background-color:#fff}
+#mainbg-content{height:580px;width:100%;background-position:center;background-image:url('/docs/image/new/home/banner-big_b1b9fc5.jpg');background-size:cover}
+#mainbg-warriors{height:580px;width:100%;background:#000 url('/docs/image/new/home/warriors_big_4b2cd5b.jpg') center top no-repeat}
+.warriors-top{border-bottom:1px solid #dcdcdc}
+.warriors-msg{text-align:center;line-height:50px;font-size:24px;font-style:italic;margin-bottom:0;padding:15px 0}
+.warriors-msg>img{padding-right:10px;max-height:52px}
+.signup-content{position:absolute;width:100%;top:150px}
+.signup-content>div{position:relative;margin:0 auto;max-width:1140px;z-index:200}
+#signup_form{float:right;max-width:580px}
+html:lang(en-US) #signup_form,html:lang(zh-CN) #signup_form,html:lang(zh-TW) #signup_form,html:lang(pt-PT) #signup_form,html:lang(es-ES) #signup_form{max-width:530px}
+html:lang(ru-RU) #signup_form{max-width:627px}
+#warriors #signup_form{float:inherit;max-width:580px}
+#warriors #signup_form_body{max-width:580px}
+html:lang(en-US) #warriors #signup_form_body,html:lang(zh-CN) #warriors #signup_form_body,html:lang(zh-TW) #warriors #signup_form_body,html:lang(pt-PT) #warriors #signup_form_body{max-width:530px}
+html:lang(ru-RU) #warriors #signup_form_body,html:lang(ru-RU) #warriors #signup_form{max-width:696px}
+#signup_title{margin-bottom:18px;text-align:left}
+#warriors #signup_title{margin-bottom:40px}
+#signup_title>h2{color:#fff;font-size:36px;line-height:48px}
+#warriors #signup_title>h2{margin-top:40px;text-shadow:0 2px 12px rgba(0,0,0,0.5)}
+#signup_form .email{border:2px solid white;border-radius:12px;-webkit-border-radius:12px;color:#949698;display:inline-block;float:left;font-size:15px;font-weight:lighter;height:48px;margin-right:10px;max-width:336px}
+#signup_form .email:focus{color:#3a3c3e;border-color:#19c8ff}
+@media (min-width: 768px) {
+html:lang(en-US) #signup_form .email {max-width:360px;}
+html:lang(fr-FR) #signup_form .email,html:lang(es-ES) #signup_form .email {max-width:316px;}
+html:lang(zh-CN) #signup_form .email {max-width:260px;}
+html:lang(zh-TW) #signup_form .email {max-width:333px;}
+html:lang(jp-JP) #signup_form .email {margin-right: 5px;max-width:307px;}
+html:lang(en-US) #warriors #signup_form .email {max-width:316px;}
+html:lang(es-ES) #warriors #signup_form .email {max-width:332px;}
+html:lang(de-DE) #warriors #signup_form .email {max-width:310px;}
+html:lang(fr-FR) #warriors #signup_form .email {max-width:288px;}
+html:lang(pt-PT) #warriors #signup_form .email {max-width:301px;}
+html:lang(jp-JP) #warriors #signup_form .email {max-width:327px;}
+html:lang(zh-CN) #warriors #signup_form .email,html:lang(zh-TW) #warriors #signup_form .email {max-width:312px;}
+html:lang(ru-RU) #warriors #signup_form .email {max-width:368px;}  }
+#signup_form .has-error .email{color:#ff1e5a;border-color:#ff1e5a}
+#signup_form span.has-error.help-block{color:#B22424;text-align:left;background-color:#FFE8E8;border-radius:3px 3px 3px 3px;padding:10px 12px 10px;width:360px}
+.signup_form_container{position:relative;padding:0;margin:0;}
+.signup_form_container .warn_img{position:absolute;top:12px;left:304px;width:24px;height:24px;}
+html:lang(en-US) .signup_form_container .warn_img {left:328px;}
+html:lang(fr-FR) .signup_form_container .warn_img,html:lang(es-ES) .signup_form_container .warn_img {left:284px;}
+html:lang(jp-JP) .signup_form_container .warn_img {left:272px;}
+html:lang(zh-CN) .signup_form_container .warn_img {left:228px;}
+#warriors .signup_form_container .warn_img {left:282px;}
+html:lang(es-ES) #warriors .signup_form_container .warn_img {left:298px;}
+html:lang(zh-CN) #warriors .signup_form_container .warn_img,html:lang(zh-TW) #warriors .signup_form_container .warn_img {left:275px;}
+html:lang(jp-JP) #warriors .signup_form_container .warn_img {left:298px;}
+html:lang(ru-RU) #warriors .signup_form_container .warn_img {left:333px;}
+html:lang(de-DE) #warriors .signup_form_container .warn_img {left:276px;}
+html:lang(fr-FR) #warriors .signup_form_container .warn_img {left:254px;}
+html:lang(pt-PT) #warriors .signup_form_container .warn_img {left:264px;}
+html:lang(de-DE) #signup_form span.has-error.help-block,html:lang(pt-PT) #signup_form span.has-error.help-block,html:lang(ru-RU) #signup_form span.has-error.help-block{width:336px}
+html:lang(fr-FR) #signup_form span.has-error.help-block,html:lang(es-ES) #signup_form span.has-error.help-block{width:316px}
+html:lang(jp-JP) #signup_form span.has-error.help-block{width:307px}
+html:lang(zh-TW) #signup_form span.has-error.help-block{width:333px}
+html:lang(zh-CN) #signup_form span.has-error.help-block{width:260px}
+#warriors #signup_form span.has-error.help-block{float:left;width:316px;}
+html:lang(es-ES) #warriors #signup_form span.has-error.help-block{width:332px}
+html:lang(de-DE) #warriors #signup_form span.has-error.help-block{width:310px}
+html:lang(zh-CN) #warriors #signup_form span.has-error.help-block,html:lang(zh-TW) #warriors #signup_form span.has-error.help-block{width:315px}
+html:lang(jp-JP) #warriors #signup_form span.has-error.help-block{width:327px}
+html:lang(ru-RU) #warriors #signup_form span.has-error.help-block{width:368px}
+html:lang(fr-FR) #warriors #signup_form span.has-error.help-block{width:288px}
+html:lang(pt-PT) #warriors #signup_form span.has-error.help-block{width:301px}
+#signup_form span.has-error.help-block>a{color:#fff;text-decoration:underline}
+.screen{position:relative;text-align:center}
+.btn-signup{border-radius:12px;background-color:#F26D21;display:inline-block;line-height:48px;min-width:160px;height:48px;font-size:18px;font-weight:600;border:1px solid #F26D21;padding:0 12px;text-shadow:none;}
+.btn-signup:hover{border-color:#DA621E;background-color:#DA621E}
+.btn-signup:active{border-color:#C2571A;background-color:#C2571A}
+#signup_form .btn.btn-signup {background-color:#F26D21;}
+#signup_form .btn.btn-signup:hover {background-color:#DA621E;border-color:#DA621E;font-weight:600;}
+#signup_form .btn.btn-signup:active {background-color:#C2571A;border-color:#C2571A;}
+.score-gartner{float:left;padding-top:16px}
+.score-gartner>a{font-size:14px;line-height:24px;color:#FFF;text-shadow:0 2px 12px rgba(0,0,0,0.5)}
+#screen2_container{background:#fff none repeat scroll 0 0}
+.quote-content{padding-top:100px}
+#screen2_container .quote-list{margin:0 auto;max-width:800px}
+#screen2_container .quote-item .quote-title{color:#3a3c3e;font-size:24px;font-style:italic;font-weight:300;line-height:40px}
+#screen2_container .quote-item .quote-detail{padding-bottom:100px;padding-top:38px}
+#screen2_container .quote-item .quote-detail .quote-name{color:#3a3c3e;font-size:16px;font-weight:600}
+#screen2_container .quote-item .quote-detail .quote-split{color:#caccce;display:inline-block;font-size:12px;line-height:22px;padding:0 16px;vertical-align:top;font-weight:300}
+#screen2_container .quote-item .quote-detail .quote-comp{color:#3a3c3e;font-size:16px;font-weight:300}
+#screen2_container .quote-item .quote-detail .readmore{font-size:16px}
+.landing-conf img{width:100%;text-align:center;border-radius:5px;border-bottom-left-radius:0;border-bottom-right-radius:0}
+.landing-conf .desc{border:1px solid #dcdcdc;border-radius:0 0 5px 5px;border-top:0}
+.landing-conf .desc .title{color:#3a3c3e;font-size:16px;line-height:22px;font-weight:600;padding:30px 0 14px 0}
+.landing-conf .desc .text{padding:0 10px;max-height:65px;margin-bottom:40px;color:#808080;font-size:14px;line-height:21px}
+.compare-link{padding:100px 0 120px 0}
+.bottom-link{padding:100px 0}
+.bottom-link .cta-bg{line-height:46px}
+.compare-link a{background-color:#F26D21;font-size:18px;min-width:200px;height:48px;padding:0;line-height:48px;color:#fff;font-weight:600;border-radius:12px;border-color:#F26D21;text-shadow:none;}
+.compare-link a:hover,.compare-link a:active{background-color:#DA621E;border:1px solid #DA621E;}
+.compare-link a:active{background-color:#C2571A;border:1px solid #C2571A;}
+.compare-link a:last-child{background-color:#fff;border:1px solid #BABACC;border-radius:12px;line-height:48px;color:#232333;margin-left:16px;text-shadow:none;}
+.compare-link a:last-child:hover{background-color:#FFEBDA;border:1px solid #FFEBDA;color:#232333;}
+.compare-link a:last-child:active{background-color:#FFD3AC;border:1px solid #FFD3AC;color:#232333;}
+#warriors .compare-link a:last-child{border:1pt solid #ff7800}
+#screen4_container{border-top:1px solid #dcdcdc;background-color:#fff;text-align:center}
+#screen4_container .comp-logos{text-align:center;padding:100px 0}
+@media(max-width:767px){.navbar>.container{padding-left:0;padding-right:0}
+.navbar-toggle{margin-top:16px}
+.container .navbar-nav{margin-left:0;margin-right:0}
+#signup_title{text-align:center}
+#signup_form .email{float:none;margin-bottom:10px;max-width:82%;}
+.btn-signup{float:none;display: inline-block;width: 82% !important;vertical-align:top}
+#signup_form{float:none;max-width:inherit}
+#signup_form .email{margin-right:0}
+#signup_form span.has-error.help-block{float:none !important;display: inline-block;width: 82% !important;word-break:break-all}
+#screen2_container .container{width:100%!important}
+.quote-content{padding-top:50px}
+#screen2_container .quote-item{font-size:20px;line-height:34px;padding:0 10px}
+#screen2_container .quote-item .quote-detail{padding-top:24px;padding-bottom:70px}
+#screen2_container .quote-item .quote-detail .quote-name{font-size:18px;display:block;line-height:20px}
+#screen2_container .quote-item .quote-detail .quote-split{display:none}
+#screen2_container .quote-item .quote-detail .quote-comp,#screen2_container .quote-item .quote-detail .readmore{font-size:18px;display:block;line-height:24px}
+.landing-conf>div{padding-bottom:30px}
+.compare-link{padding:50px 0 60px 0}
+.compare-link a{margin-bottom:20px}
+.compare-link a:last-child{margin-left:0}
+#mainbg-content{background-position:30% top}
+}
+#slide_container{padding:30px 0;overflow:hidden}
+#slideShim{height:120px;line-height:120px}
+#slideShim div.item table{width:1120px}
+#slideShim div.item table td{width:20%;text-align:center}
+#slideShim div.item img{width:180px;height:72px;margin:0 10px}
+#slideShim div.item .title{text-align:center;margin:5px 0;display:none}
